@@ -3,6 +3,8 @@
 
 需與chess_game_server一同使用(先開server)
 
+https://github.com/CatMoonLiao/chess_game_server
+
 implement socket connection
 
 when open server, it will show ip address
