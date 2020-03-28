@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/apple" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2:2"
+        android:textColor="#FD000000"
+        android:textSize="50sp" />
+
+    <GridView
+        android:id="@+id/grid"
+        style="@android:style/Widget.Holo.Light.GridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="50pt"
+        android:gravity="center"
+        android:numColumns="6"
+        android:stretchMode="columnWidth"
+        android:translationY="100dp"
+        android:visibility="visible">
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/showtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:text="TextView"
+        android:translationY="500dp"/>
+
+</RelativeLayout>
